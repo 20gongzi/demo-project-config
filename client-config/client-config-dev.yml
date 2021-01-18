@@ -12,4 +12,4 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:10101/eureka
 
-xxx: dev
+xxx: dev update
