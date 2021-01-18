@@ -1,15 +1,15 @@
 server:
-  port: 7001
+  port: 8001
   servlet:
-    context-path: /client-provider
+    context-path: /client-config
 
 spring:
   application:
-    name: client-provider
+    name: client-config
 
 eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:10101/eureka
 
-xxx: dev
+xxx: test
