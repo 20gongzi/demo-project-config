@@ -11,5 +11,11 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:10101/eureka
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health
 
 xxx: dev
