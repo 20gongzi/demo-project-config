@@ -18,4 +18,4 @@ management:
       exposure:
         include: refresh,health
 
-xxx: dev
+xxx: dev update
