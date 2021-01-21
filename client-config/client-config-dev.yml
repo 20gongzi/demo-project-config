@@ -18,4 +18,4 @@ management:
       exposure:
         include: bus-refresh,health
 
-xxx: dev update
+xxx: dev
