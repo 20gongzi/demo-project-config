@@ -1,23 +1,23 @@
-server:
-  port: 9001
-  servlet:
-    context-path: /client-config
-
-spring:
-  application:
-    name: client-config
-  # 消息总线
-  rabbitmq:
-    host: 192.168.11.101
-    username: guest
-    password: guest
-    virtual-host: /
-
 # 注册中心
 eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:11111/eureka
+# 基础配置
+server:
+  port: 9001
+  servlet:
+    context-path: /client-config
+# 服务配置
+spring:
+  application:
+    name: client-config
+  # 消息总线
+  rabbitmq:
+    host: 192.168.11.128
+    username: guest
+    password: guest
+    virtual-host: /
 # 安全监控
 management:
   endpoints:
