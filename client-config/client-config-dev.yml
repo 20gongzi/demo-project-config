@@ -25,4 +25,4 @@ management:
       exposure:
         include: bus-refresh,refresh,health,info
 
-xxx: dev update
+xxx: dev
